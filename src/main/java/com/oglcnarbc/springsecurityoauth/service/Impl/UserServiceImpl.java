@@ -57,7 +57,6 @@ public class UserServiceImpl implements UserService {
             user.setNameSurname(registrationRequest.getNameSurname());
             user.setPassword(bCryptPasswordEncoder.encode(registrationRequest.getPassword()));
             user.setUsername(registrationRequest.getUsername());
-            //username var mı yok mu gibi kontroller burda yapılmalı
             userRepository.save(user);
             return Boolean.TRUE;
 

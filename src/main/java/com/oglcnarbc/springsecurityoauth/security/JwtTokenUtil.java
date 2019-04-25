@@ -12,7 +12,6 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.function.Function;
 
-//TOKEN ALMA İŞLEMİ
 @Component
 public class JwtTokenUtil {
 

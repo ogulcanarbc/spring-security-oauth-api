@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-//son kullanıcıya (client) bu token bilgileri dönecek
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
